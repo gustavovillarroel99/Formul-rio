@@ -11,7 +11,7 @@
 
 body {
     font-size: 1.6rem;
-    background-color: #0d1b2a; /* fundo escuro azul-petróleo */
+    background-color: #0d1b2a; 
     color: #ffffff; /* texto branco */
     padding-inline: 2rem;
 }
@@ -30,7 +30,7 @@ fieldset {
     padding: 1.5rem;
     margin-bottom: 3rem;
     border-radius: 1rem;
-    border: 1px solid #4ecca3; /* cor de contorno leve */
+    border: 1px solid #4ecca3; 
 
     label {
         display: block;
@@ -46,21 +46,21 @@ fieldset {
         padding: 1rem;
         border-radius: 1rem;
         border: none;
-        color: #1a1a2e; /* texto dentro do input escuro */
-        background-color: #c7f9cc; /* fundo do input verde claro */
+        color: #1a1a2e; 
+        background-color: #c7f9cc;
     }
 
     input:focus,
     input:hover {
-        outline: 2px solid #3bf0a5; /* contorno verde vibrante ao focar */
+        outline: 2px solid #3bf0a5; 
     }
 
     input::placeholder {
-        color: #555555; /* placeholder cinza escuro */
+        color: #555555; 
     }
 
     input[type=file] {
-        color: #ffffff; /* mantém branco */
+        color: #ffffff; 
     }
 
     input[type=checkbox],
@@ -74,7 +74,7 @@ fieldset {
 
     h2 {
         margin-block: 1rem;
-        color: #ffd369; /* títulos em amarelo suave */
+        color: #ffd369;
     }
 
     select,
@@ -91,9 +91,9 @@ fieldset {
 button {
     padding: 1rem 2rem;
     margin-bottom: 1rem;
-    background: #3bf0a5; /* botão verde vibrante */
+    background: #3bf0a5;
     border: none;
-    color: #1a1a2e; /* texto do botão escuro */
+    color: #1a1a2e; 
     border-radius: 1rem;
     font-weight: bold;
     font-size: 2rem;
@@ -101,6 +101,6 @@ button {
 }
 
 button:hover {
-    background-color: #2ecc8f; /* verde mais escuro ao passar o mouse */
+    background-color: #2ecc8f; 
     cursor: pointer;
 }
