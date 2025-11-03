@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Embed code", sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #0d1b2a; /* fundo escuro azul-petróleo */
+    color: #ffffff; /* texto branco */
+    padding-inline: 2rem;
+}
+
+#page {
+    max-width: 120rem;
+    margin-inline: auto;
+}
+
+header {
+    padding-block: 2rem;
+    text-align: center;
+}
+
+fieldset {
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    border: 1px solid #4ecca3; /* cor de contorno leve */
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: #ffffff; /* labels em branco */
+    }
+
+    div {
+        margin-bottom: 1rem;
+    }
+
+    input {
+        padding: 1rem;
+        border-radius: 1rem;
+        border: none;
+        color: #1a1a2e; /* texto dentro do input escuro */
+        background-color: #c7f9cc; /* fundo do input verde claro */
+    }
+
+    input:focus,
+    input:hover {
+        outline: 2px solid #3bf0a5; /* contorno verde vibrante ao focar */
+    }
+
+    input::placeholder {
+        color: #555555; /* placeholder cinza escuro */
+    }
+
+    input[type=file] {
+        color: #ffffff; /* mantém branco */
+    }
+
+    input[type=checkbox],
+    input[type=radio] {
+        outline: none;
+    }
+
+    input + label {
+        display: inline;
+    }
+
+    h2 {
+        margin-block: 1rem;
+        color: #ffd369; /* títulos em amarelo suave */
+    }
+
+    select,
+    textarea {
+        padding: 1rem;
+        border-radius: 1rem;
+        resize: none;
+        border: none;
+        background-color: #c7f9cc;
+        color: #1a1a2e;
+    }
+}
+
+button {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    background: #3bf0a5; /* botão verde vibrante */
+    border: none;
+    color: #1a1a2e; /* texto do botão escuro */
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+    background-color: #2ecc8f; /* verde mais escuro ao passar o mouse */
+    cursor: pointer;
+}
